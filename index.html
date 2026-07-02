@@ -3,59 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cole Campbell — Data Scientist &amp; ML Engineer</title>
-  <meta name="description" content="Cole Campbell — data scientist and ML engineer. Generative AI, deep learning, and applied statistics. Projects, resume, and contact." />
+  <title>Cole Campbell · Data Scientist &amp; ML Engineer</title>
+  <meta name="description" content="Cole Campbell, data scientist and ML engineer. Generative AI, deep learning, and applied statistics. Projects, resume, and contact." />
   <meta name="author" content="Cole Campbell" />
+  <meta name="theme-color" content="#0b0c0f" />
+
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Cole Campbell — Data Scientist &amp; ML Engineer" />
+  <meta property="og:title" content="Cole Campbell · Data Scientist &amp; ML Engineer" />
   <meta property="og:description" content="Generative AI, deep learning, and applied statistics. I carry problems from raw data to a working, evaluated result." />
   <meta property="og:image" content="https://cjcamp16.github.io/assets/proj_sciviz.png" />
   <meta property="og:url" content="https://cjcamp16.github.io/" />
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230d1b2a'/%3E%3Ctext x='32' y='44' font-family='Arial,sans-serif' font-size='34' font-weight='bold' fill='%23f5f6f8' text-anchor='middle'%3ECC%3C/text%3E%3Crect x='18' y='50' width='28' height='4' fill='%239b2d30'/%3E%3C/svg%3E" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0c0f'/%3E%3Ctext x='32' y='43' font-family='monospace' font-size='30' font-weight='bold' fill='%2363d2c6' text-anchor='middle'%3ECC%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <!-- NAV -->
   <header class="nav" id="nav">
     <div class="container nav-inner">
-      <a href="#top" class="brand">Cole&nbsp;Campbell</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <a href="#top" class="brand"><span class="brand-mark">CC</span> Cole Campbell</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
         <span></span><span></span><span></span>
       </button>
-      <nav class="nav-links" id="navLinks">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#about" data-nav>About</a>
+        <a href="#projects" data-nav>Projects</a>
+        <a href="#skills" data-nav>Skills</a>
+        <a href="#experience" data-nav>Experience</a>
+        <a href="#contact" data-nav>Contact</a>
         <a href="assets/Cole_Campbell_Resume.pdf" class="nav-cta" target="_blank" rel="noopener">Résumé</a>
       </nav>
     </div>
   </header>
 
+  <main id="main">
   <!-- HERO -->
   <section class="hero" id="top">
     <div class="container hero-inner">
       <div class="hero-text">
-        <p class="eyebrow">Data Scientist&nbsp; /&nbsp; ML Engineer&nbsp; /&nbsp; AI Trainer</p>
+        <p class="eyebrow">Data Scientist&nbsp;/&nbsp;ML Engineer&nbsp;/&nbsp;AI Trainer</p>
         <h1>Cole Campbell</h1>
-        <p class="lede">I carry problems from raw data all the way to a working, evaluated result.</p>
-        <p class="sub">Generative AI · Deep Learning · Applied Statistics — Tempe, Arizona</p>
+        <p class="lede">I carry problems from raw data to a working, evaluated result.</p>
+        <p class="sub">I build generative AI systems and machine-learning pipelines, then hold them to real metrics.</p>
+
+        <div class="status" role="status"><span class="dot" aria-hidden="true"></span> Open to data science &amp; ML roles</div>
+
         <div class="hero-actions">
           <a class="btn btn-primary" href="#projects">View projects</a>
-          <a class="btn" href="mailto:colejcampbell1738@gmail.com">Email me</a>
-          <a class="btn btn-ghost" href="assets/Cole_Campbell_Resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
+          <a class="btn" href="assets/Cole_Campbell_Resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
         </div>
-        <div class="hero-links">
-          <a href="https://www.linkedin.com/in/cole-campbell23" target="_blank" rel="noopener">LinkedIn</a>
-          <span>·</span>
-          <a href="https://github.com/cjcamp16" target="_blank" rel="noopener">GitHub</a>
-        </div>
+
+        <ul class="hero-meta">
+          <li><span class="k">Focus</span> Generative AI, Deep Learning, Applied Statistics</li>
+          <li><span class="k">Based in</span> Tempe, Arizona</li>
+          <li><span class="k">Reach me</span>
+            <a href="mailto:colejcampbell1738@gmail.com">Email</a> ·
+            <a href="https://www.linkedin.com/in/cole-campbell23" target="_blank" rel="noopener">LinkedIn</a> ·
+            <a href="https://github.com/cjcamp16" target="_blank" rel="noopener">GitHub</a>
+          </li>
+        </ul>
       </div>
+
       <div class="hero-photo">
-        <img src="assets/headshot.png" alt="Cole Campbell" width="320" height="320" />
+        <div class="photo-frame">
+          <img src="assets/headshot.png" alt="Cole Campbell" width="360" height="440" />
+        </div>
       </div>
     </div>
   </section>
@@ -63,76 +83,90 @@
   <!-- ABOUT -->
   <section class="section" id="about">
     <div class="container narrow">
-      <h2><span class="hash">#</span> About</h2>
-      <p>I'm a data scientist and ML engineer who carries problems from raw data all the way to a working, evaluated result. My portfolio spans the field — a multi-architecture generative AI pipeline, a productized generative-AI service I shipped to a live product, a cross-platform AI scheduling assistant, panel-data econometrics, and scripted scientific visualization. The throughline across all of them is rigor: clean pipelines, real evaluation metrics, and code I can defend.</p>
-      <p>I finished my B.S. in Data Science (concentration in computer science) at Arizona State University in May 2026, and I begin my M.S. in Data Science, Analytics, and Engineering (Computational Mathematics &amp; Data) there in August 2026. I currently work as a contract AI trainer with Handshake AI, evaluating and refining model outputs across coding, STEM, and mathematics.</p>
-      <p class="open">Open to entry-level and contract roles in AI implementation, machine learning, and data science — remote or Phoenix-area.</p>
+      <div class="section-head">
+        <span class="section-index">01</span>
+        <h2>About</h2>
+        <span class="section-rule" aria-hidden="true"></span>
+      </div>
+      <p>I'm a data scientist and ML engineer who carries problems from raw data to a working, evaluated result. My portfolio spans the field: a multi-architecture generative AI pipeline, a productized generative-AI service shipped into a live product, a cross-platform AI scheduling assistant, panel-data econometrics, and scripted scientific visualization. The throughline is rigor. Clean pipelines, real evaluation metrics, and code I can defend.</p>
+      <p>I finished my B.S. in Data Science (computer science concentration) at Arizona State University in May 2026, and I begin my M.S. in Data Science, Analytics, and Engineering, in the School of Mathematical &amp; Statistical Sciences, there in August 2026. I currently work as a contract AI trainer with Handshake AI, evaluating and refining model outputs across coding, STEM, and mathematics.</p>
+      <p class="open">Open to entry-level and contract roles in AI implementation, machine learning, and data science, remote or Phoenix-area.</p>
     </div>
   </section>
 
   <!-- PROJECTS -->
   <section class="section alt" id="projects">
     <div class="container">
-      <h2><span class="hash">#</span> Projects</h2>
+      <div class="section-head">
+        <span class="section-index">02</span>
+        <h2>Selected Projects</h2>
+        <span class="section-rule" aria-hidden="true"></span>
+      </div>
+
       <div class="projects">
 
-        <article class="card">
-          <div class="card-img"><img src="assets/proj_offerready.png" alt="OfferReady — AI Career Kit" loading="lazy" /></div>
+        <article class="card card-featured reveal">
+          <div class="card-media"><img src="assets/proj_offerready.png" alt="OfferReady, AI Career Kit" loading="lazy" /></div>
           <div class="card-body">
-            <h3>OfferReady — AI Career Kit</h3>
-            <p>A productized, done-for-you AI service I designed, built, and shipped end to end: 1–2 phone photos become studio-quality headshots, paired with an ATS résumé rewrite, LinkedIn overhaul, and a hosted portfolio. A generative headshot engine — Gemini's image API, with a local InstantID + RealVisXL fallback and per-client DreamBooth LoRA — produces brand-new images that are identity-scored against the originals, while an automated pipeline carries every order from a Tally intake through Claude-structured client data to emailed delivery. My first project taken all the way from idea to a live, paying product.</p>
+            <p class="card-kicker">01 · Shipped Product <a class="card-status" href="https://offerreadynow.us" target="_blank" rel="noopener">Live</a></p>
+            <h3>OfferReady</h3>
+            <p class="card-sub">A productized AI career kit, taken from idea to a live, paying product.</p>
+            <p>One or two phone photos become studio-quality headshots, paired with an ATS résumé rewrite, a LinkedIn overhaul, and a hosted portfolio. The headshot engine runs on Gemini's image API, with a local InstantID plus RealVisXL fallback and per-client DreamBooth LoRA, generating new images that are identity-scored against the originals. An automated pipeline carries every order from a Tally intake, through Claude-structured client data, to emailed delivery.</p>
             <div class="tags"><span>Gemini API</span><span>InstantID</span><span>Claude API</span><span>DreamBooth LoRA</span><span>Stripe</span></div>
-            <div class="card-links"><a href="https://offerreadynow.us" target="_blank" rel="noopener">Live site →</a></div>
+            <div class="card-links"><a href="https://offerreadynow.us" target="_blank" rel="noopener">Visit live site <span aria-hidden="true">&rarr;</span></a></div>
           </div>
         </article>
 
-        <article class="card">
-          <div class="card-img"><img src="assets/proj_studio.png" alt="Multi-Architecture Generative Content Studio" loading="lazy" /></div>
+        <article class="card reveal">
+          <div class="card-media"><img src="assets/proj_studio.png" alt="Multi-Architecture Generative Content Studio" loading="lazy" /></div>
           <div class="card-body">
-            <h3>Multi-Architecture Generative Content Studio</h3>
-            <p>A unified generative pipeline that turns a single prompt into story text, illustrations, character portraits, and background music — built on GPT-2, Stable Diffusion, StyleGAN, and an LSTM music generator. Benchmarked architectures head-to-head: the diffusion stage measured roughly 390× sharper output than the DCGAN baseline.</p>
+            <p class="card-kicker">02 · Capstone <span class="card-status muted">Code private</span></p>
+            <h3>Generative Content Studio</h3>
+            <p>A unified generative pipeline that turns a single prompt into story text, illustrations, character portraits, and background music, built on GPT-2, Stable Diffusion, StyleGAN, and an LSTM music generator. Benchmarked architectures head to head: the diffusion stage measured roughly 390&times; sharper output than the DCGAN baseline.</p>
             <div class="tags"><span>PyTorch</span><span>Diffusers</span><span>Hugging Face</span><span>GANs</span><span>Diffusion</span></div>
-            <div class="card-links"><span class="muted-link">Capstone · code private</span></div>
           </div>
         </article>
 
-        <article class="card">
-          <div class="card-img"><img src="assets/proj_tempo.png" alt="Tempo — AI Scheduling Assistant" loading="lazy" /></div>
+        <article class="card reveal">
+          <div class="card-media"><img src="assets/proj_tempo.png" alt="Tempo, AI Scheduling Assistant" loading="lazy" /></div>
           <div class="card-body">
-            <h3>Tempo — AI Scheduling Assistant</h3>
-            <p>A cross-platform scheduling assistant that pairs an LLM — for understanding natural-language intent — with a constraint solver that produces valid, conflict-free schedules. FastAPI/PostgreSQL backend, Flutter client, and local LLMs so it stays private.</p>
+            <p class="card-kicker">03 · In Development <span class="card-status muted">Code private</span></p>
+            <h3>Tempo</h3>
+            <p>A cross-platform scheduling assistant that pairs an LLM, for understanding natural-language intent, with a constraint solver that produces valid, conflict-free schedules. FastAPI and PostgreSQL backend, a Flutter client, and local LLMs so it stays private.</p>
             <div class="tags"><span>FastAPI</span><span>PostgreSQL</span><span>Flutter</span><span>Constraint Solving</span><span>Local LLMs</span></div>
-            <div class="card-links"><span class="muted-link">In development · code private</span></div>
           </div>
         </article>
 
-        <article class="card">
-          <div class="card-img"><img src="assets/proj_sciviz.png" alt="Scientific Visualization with ParaView" loading="lazy" /></div>
+        <article class="card reveal">
+          <div class="card-media"><img src="assets/proj_sciviz.png" alt="Scientific Visualization with ParaView" loading="lazy" /></div>
           <div class="card-body">
-            <h3>Scientific Visualization with ParaView</h3>
-            <p>A Python-scripted ParaView pipeline over a synthetic 3D field — volume rendering, isosurfaces, and ABC-flow streamlines, with automated figure and animation export. NumPy→VTK data generation, fully reproducible and headless-capable.</p>
+            <p class="card-kicker">04 · Open Source <a class="card-status" href="https://github.com/cjcamp16/sciviz-paraview" target="_blank" rel="noopener">GitHub</a></p>
+            <h3>Scientific Visualization</h3>
+            <p>A Python-scripted ParaView pipeline over a synthetic 3D field: volume rendering, isosurfaces, and ABC-flow streamlines, with automated figure and animation export. NumPy to VTK data generation, fully reproducible and headless-capable.</p>
             <div class="tags"><span>ParaView</span><span>paraview.simple</span><span>VTK</span><span>NumPy</span></div>
-            <div class="card-links"><a href="https://github.com/cjcamp16/sciviz-paraview" target="_blank" rel="noopener">GitHub →</a></div>
+            <div class="card-links"><a href="https://github.com/cjcamp16/sciviz-paraview" target="_blank" rel="noopener">View on GitHub <span aria-hidden="true">&rarr;</span></a></div>
           </div>
         </article>
 
-        <article class="card">
-          <div class="card-img"><img src="assets/proj_psid.png" alt="Income and Wealth Inequality (PSID)" loading="lazy" /></div>
+        <article class="card reveal">
+          <div class="card-media"><img src="assets/proj_psid.png" alt="Income and Wealth Inequality (PSID)" loading="lazy" /></div>
           <div class="card-body">
-            <h3>Income &amp; Wealth Inequality (PSID)</h3>
-            <p>Panel-data econometrics on U.S. income and wealth inequality (PSID, 1999–2023): Gini and top-share trends, regression determinants, and life-cycle profiles. Wealth runs roughly twice as unequal as income (Gini ≈ 0.85 vs ≈ 0.45).</p>
+            <p class="card-kicker">05 · Research <a class="card-status" href="https://github.com/cjcamp16/psid-income-wealth-analysis" target="_blank" rel="noopener">GitHub</a></p>
+            <h3>Income &amp; Wealth Inequality</h3>
+            <p>Panel-data econometrics on U.S. income and wealth inequality (PSID, 1999 to 2023): Gini and top-share trends, regression determinants, and life-cycle profiles. Wealth runs roughly twice as unequal as income (Gini &asymp; 0.85 versus &asymp; 0.45).</p>
             <div class="tags"><span>pandas</span><span>statsmodels</span><span>Econometrics</span><span>Panel Data</span></div>
-            <div class="card-links"><a href="https://github.com/cjcamp16/psid-income-wealth-analysis" target="_blank" rel="noopener">GitHub →</a></div>
+            <div class="card-links"><a href="https://github.com/cjcamp16/psid-income-wealth-analysis" target="_blank" rel="noopener">View on GitHub <span aria-hidden="true">&rarr;</span></a></div>
           </div>
         </article>
 
-        <article class="card">
-          <div class="card-img"><img src="assets/proj_titanic.png" alt="Titanic Survival Analysis" loading="lazy" /></div>
+        <article class="card reveal">
+          <div class="card-media"><img src="assets/proj_titanic.png" alt="Titanic Survival Analysis" loading="lazy" /></div>
           <div class="card-body">
+            <p class="card-kicker">06 · Coursework <a class="card-status" href="https://github.com/cjcamp16/titanic-survival-analysis" target="_blank" rel="noopener">GitHub</a></p>
             <h3>Titanic Survival Analysis</h3>
-            <p>EDA and logistic-regression survival modeling on the Titanic dataset — hypothesis testing across passenger class, sex, age, and fare, with clean Python visualizations. An end-to-end introductory data-science build.</p>
+            <p>EDA and logistic-regression survival modeling on the Titanic dataset: hypothesis testing across passenger class, sex, age, and fare, with clean Python visualizations. An end-to-end introductory data-science build.</p>
             <div class="tags"><span>scikit-learn</span><span>pandas</span><span>statsmodels</span></div>
-            <div class="card-links"><a href="https://github.com/cjcamp16/titanic-survival-analysis" target="_blank" rel="noopener">GitHub →</a></div>
+            <div class="card-links"><a href="https://github.com/cjcamp16/titanic-survival-analysis" target="_blank" rel="noopener">View on GitHub <span aria-hidden="true">&rarr;</span></a></div>
           </div>
         </article>
 
@@ -142,24 +176,28 @@
 
   <!-- SKILLS -->
   <section class="section" id="skills">
-    <div class="container narrow">
-      <h2><span class="hash">#</span> Skills</h2>
+    <div class="container">
+      <div class="section-head">
+        <span class="section-index">03</span>
+        <h2>Skills</h2>
+        <span class="section-rule" aria-hidden="true"></span>
+      </div>
       <div class="skills">
         <div class="skill-group">
           <h4>Languages</h4>
           <div class="chips"><span>Python</span><span>R</span><span>SQL</span><span>Dart</span><span>C / C++</span><span>JavaScript (Node.js)</span><span>Bash</span><span>MATLAB</span></div>
         </div>
         <div class="skill-group">
-          <h4>Machine Learning / AI</h4>
-          <div class="chips"><span>Deep Learning</span><span>CNNs</span><span>RNNs / LSTMs</span><span>Transformers</span><span>Diffusion</span><span>GANs</span><span>StyleGAN</span><span>LLMs</span><span>Prompt Engineering</span><span>LoRA / QLoRA / PEFT</span><span>Transfer Learning</span><span>Neural Style Transfer</span><span>Audio / Music Generation</span><span>InstantID</span><span>ControlNet</span><span>IP-Adapter</span><span>DreamBooth</span><span>Face Recognition (InsightFace)</span><span>Model Evaluation (FID, CLIP, LPIPS, BLEU)</span></div>
+          <h4>Machine Learning &amp; AI</h4>
+          <div class="chips"><span>Deep Learning</span><span>CNNs</span><span>RNNs / LSTMs</span><span>Transformers</span><span>Diffusion</span><span>GANs</span><span>StyleGAN</span><span>LLMs</span><span>Prompt Engineering</span><span>LoRA / QLoRA / PEFT</span><span>Transfer Learning</span><span>Neural Style Transfer</span><span>Audio / Music Generation</span><span>InstantID</span><span>ControlNet</span><span>IP-Adapter</span><span>DreamBooth</span><span>InsightFace</span><span>Eval (FID, CLIP, LPIPS, BLEU)</span></div>
         </div>
         <div class="skill-group">
           <h4>Frameworks &amp; Libraries</h4>
-          <div class="chips"><span>PyTorch</span><span>torchvision / torchaudio</span><span>TensorFlow</span><span>Hugging Face</span><span>scikit-learn</span><span>NumPy</span><span>pandas</span><span>SciPy</span><span>StatsModels</span><span>FastAPI</span><span>Flutter / Riverpod</span><span>diffusers</span><span>Gemini API</span><span>Anthropic / Claude API</span></div>
+          <div class="chips"><span>PyTorch</span><span>torchvision / torchaudio</span><span>TensorFlow</span><span>Hugging Face</span><span>scikit-learn</span><span>NumPy</span><span>pandas</span><span>SciPy</span><span>StatsModels</span><span>FastAPI</span><span>Flutter / Riverpod</span><span>diffusers</span><span>Gemini API</span><span>Claude API</span></div>
         </div>
         <div class="skill-group">
-          <h4>Data Engineering</h4>
-          <div class="chips"><span>ETL / Data Pipelines</span><span>REST API Integration</span><span>SQLAlchemy + Alembic</span><span>PostgreSQL</span><span>Firebase</span><span>Docker</span><span>CUDA</span><span>AWS</span><span>GCP</span><span>Azure ML</span><span>Stripe API</span><span>Email Automation (SMTP / Resend)</span><span>GitHub Pages</span></div>
+          <h4>Data &amp; Infrastructure</h4>
+          <div class="chips"><span>ETL / Data Pipelines</span><span>REST API Integration</span><span>SQLAlchemy + Alembic</span><span>PostgreSQL</span><span>Firebase</span><span>Docker</span><span>CUDA</span><span>AWS</span><span>GCP</span><span>Azure ML</span><span>Stripe API</span><span>SMTP / Resend</span><span>GitHub Pages</span></div>
         </div>
         <div class="skill-group">
           <h4>Tools</h4>
@@ -176,20 +214,26 @@
   <!-- EXPERIENCE / EDUCATION -->
   <section class="section alt" id="experience">
     <div class="container narrow">
-      <h2><span class="hash">#</span> Experience &amp; Education</h2>
+      <div class="section-head">
+        <span class="section-index">04</span>
+        <h2>Experience &amp; Education</h2>
+        <span class="section-rule" aria-hidden="true"></span>
+      </div>
       <ul class="timeline">
         <li>
-          <div class="t-head"><span class="t-title">AI Trainer / Technical Evaluator (Contract)</span><span class="t-date">2026 – Present</span></div>
+          <div class="t-head"><span class="t-title">AI Trainer / Technical Evaluator (Contract)</span><span class="t-date">2026 to Present</span></div>
           <div class="t-org">Handshake AI · Remote</div>
           <p>Evaluate and refine AI model outputs across coding, STEM, and mathematics domains.</p>
         </li>
         <li>
-          <div class="t-head"><span class="t-title">M.S., Data Science, Analytics &amp; Engineering (Computational Math &amp; Data)</span><span class="t-date">Aug 2026 – May 2027</span></div>
-          <div class="t-org">Arizona State University</div>
+          <div class="t-head"><span class="t-title">M.S., Data Science, Analytics &amp; Engineering</span><span class="t-date">Aug 2026 to May 2027</span></div>
+          <div class="t-org">Arizona State University · School of Mathematical &amp; Statistical Sciences</div>
+          <p>Concentration in Computational Mathematics &amp; Data.</p>
         </li>
         <li>
-          <div class="t-head"><span class="t-title">B.S., Data Science (Concentration in Computer Science)</span><span class="t-date">Aug 2023 – May 2026</span></div>
+          <div class="t-head"><span class="t-title">B.S., Data Science (Computer Science Concentration)</span><span class="t-date">Aug 2023 to May 2026</span></div>
           <div class="t-org">Arizona State University · Barrett, The Honors College</div>
+          <p>GPA 3.52 / 4.00.</p>
         </li>
       </ul>
     </div>
@@ -198,7 +242,10 @@
   <!-- CONTACT -->
   <section class="section contact" id="contact">
     <div class="container narrow center">
-      <h2><span class="hash">#</span> Contact</h2>
+      <div class="section-head center-head">
+        <span class="section-index">05</span>
+        <h2>Contact</h2>
+      </div>
       <p class="contact-lede">Open to data science, ML, and AI roles. The fastest way to reach me is email.</p>
       <div class="hero-actions center-actions">
         <a class="btn btn-primary" href="mailto:colejcampbell1738@gmail.com">colejcampbell1738@gmail.com</a>
@@ -207,11 +254,12 @@
       </div>
     </div>
   </section>
+  </main>
 
   <footer class="footer">
-    <div class="container">
-      <span>© <span id="year"></span> Cole Campbell</span>
-      <span class="footer-note">Built with plain HTML &amp; CSS.</span>
+    <div class="container footer-inner">
+      <span>&copy; <span id="year"></span> Cole Campbell</span>
+      <span class="footer-note">Built by hand with HTML, CSS, and a little JavaScript.</span>
     </div>
   </footer>
 
